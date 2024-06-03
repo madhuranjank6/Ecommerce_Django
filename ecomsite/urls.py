@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name='index'),
     path('<int:id>/',views.detail,name='detail_view'),
+    path('checkout/',views.checkout,name="checkout"),
 ]
